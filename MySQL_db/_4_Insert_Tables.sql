@@ -3,6 +3,7 @@
 
 -- Insert Data into the Table 
 
+-- ------------------------
 
 
 -- 1. Insert One Row at a Time:
@@ -11,6 +12,7 @@ INSERT INTO student_table (roll_no, name, age, admission_date) VALUES (2, 'Ravi 
 INSERT INTO student_table (roll_no, name, age, admission_date) VALUES (3, 'Meena Joshi', 15,  NULL);
 INSERT INTO student_table (roll_no, name, age, admission_date) VALUES (4, 'Arjun Verma', 18, NULL);
 
+-- ------------------------
 
 
 -- 2. Insert All Rows at Once:

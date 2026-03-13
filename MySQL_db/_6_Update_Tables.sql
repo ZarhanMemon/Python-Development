@@ -1,3 +1,5 @@
+RENAME TABLE student_table TO student;
+
 
 
 -- Updating Data in a Table
@@ -12,6 +14,7 @@
 -- WHERE: Filters which rows should be updated. 
 
 
+-- ------------------------
 
 -- 1. Update a Single Row :
 UPDATE student
@@ -19,23 +22,28 @@ SET grade = '12th'
 WHERE roll_no = 2;
 
 
+-- ------------------------
+
 -- 2. Update Multiple Columns :
 UPDATE student
 SET grade = '12th' , name = 'abc', age= 17
 WHERE roll_no = 2;
 
 
+-- ------------------------
 
 -- 3. Update All Rows :
 UPDATE student
 SET age = 18;
 
+-- ------------------------
 
 -- 4. Conditional Update with Comparison Operators :
 UPDATE student
 SET age = age + 1
 WHERE age <= 18;
 
+-- ------------------------
 
 -- 5. Update Using IS NULL :
 UPDATE student
