@@ -241,7 +241,7 @@ plt.show()
 
 
 
-# Bar Chart = Circular chart divided into slices to show percentages of total.
+# Pie Chart = Circular chart divided into slices to show percentages of total.
 #             Good for visualizing distribution among categories
 
 
@@ -311,7 +311,7 @@ plt.show()
 #---------------------------------------
 
 
-# Labels - Index in Plt :-
+#  Label - LEGEND - Index in Plt :-
 
 #Class-10th A
 x1 = np.array([0,2,3,1,8,5])
