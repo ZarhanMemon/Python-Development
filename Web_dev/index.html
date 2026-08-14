@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="hi-eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>My Dashboard</title>
+
+    <link  rel="stylesheet" href="style.css" /> 
+</head>
+
+<body>
+    <header>
+
+        <nav>
+
+            <div class="logo">
+                <img alt="tensorflow"
+                    src="https://www.gstatic.com/devrel-devsite/prod/v25f01968170374b7bd062a383d0367da1beee7ed413abaee67eec4296f4ba687/tensorflow/images/lockup.svg" />
+               
+            </div>
+             
+            <div>
+                <h2> Good of Ml practice</h2>
+            </div>
+
+        </nav>
+
+        
+            <div class="block-1"> <h2>Not in one line - div = block element taking all one line space extra</h2></div>
+            <div class="block-2"> <span>| this is span - only take requre space |</span> <span>| HELLO |</span></div>
+
+
+    </header>
+
+    <main>
+
+        <table>
+            <tr>
+                <th>Feature</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>Int</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>ad</td>
+                <td>29</td>
+            </tr>
+        </table>
+
+        <br>
+        <br>
+
+
+        <form action="/predict" method="post">
+
+            <label for="feature">Enter a value:</label>
+            <input type="text" name="feature" id="feature"><br>
+
+            <label for="feature_n">Enter a name:</label>
+            <input type="text" name="feature_n" id="feature_n"><br>
+
+            <button type="submit">Predict</button>
+        </form>
+
+    </main>
+
+    <footer></footer>
+
+</body>
+
+
+</html>

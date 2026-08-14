@@ -1,0 +1,19 @@
+
+.logo , img
+{
+  color : darkblue;
+    height: 123px;
+    width: 80px;
+    font-size: 19px;
+    padding: 8px;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: blueviolet;
+    color: brown;
+    margin: 0px;
+}
