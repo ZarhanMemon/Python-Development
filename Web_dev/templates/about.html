@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+    </head>
+    <link rel="stylesheet" href="static/style.css" >
+    <script href="/static/javascript.js" ></script>
+
+    <body>
+
+        <h1>This about is html script coming from template folder</h1>
+
+        {{url_for("static", filename="python.py")}}
+
+                {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <ul>
+                    {% for msg in messages %}
+                        <li> {{msg}} </li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+        
+    </body>
+</html>

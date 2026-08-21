@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Prediction Input</title>
+</head>
+
+<body>
+    <h2>Enter Input</h2>
+    <form action="/predict" method="post">
+        <input type="text" placeholder="Enter your name" name="user_name" id="" /><br /><br />
+        <input type="email" placeholder="Enter your email" name="email" id="" /><br /><br />
+        <input type="text" placeholder="Enter your password" name="password" id="" /><br /><br />
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>{{name}} , i am using jinja2 for doing logic on html side</h2>
+    <p>My main language is {{lang}}</p>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Fruits</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in fruits %}
+            <tr>
+                <td>{{item}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+
+    <h3>While u are iserting htmltext from flask to page u shuold use -{{ 'htmlline' |safe }}</h3>
+    <h4>{{ html | safe }}</h4>
+</body>
+
+</html>

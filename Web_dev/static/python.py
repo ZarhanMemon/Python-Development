@@ -1,0 +1,1 @@
+print("You can download the python file , its in static folder")
